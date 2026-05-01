@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function App() {
-  const [pokemon, setPokemon] = useState<any[]>([]);
+  
   const [detailedPokemon, setDetailedPokemon] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
 
